@@ -59,7 +59,7 @@ export function Experience() {
 
         {/* Right values */}
         <div className="md:col-span-4 relative">
-          <div className="absolute left-0 top-2 bottom-2 w-px hairline hidden md:block" />
+          <div className="absolute left-0 top-2 bottom-2 w-px bg-outline hidden md:block" />
           <ul className="space-y-9 md:pl-8">
             {VALUES.map((v, i) => (
               <Reveal key={v.title} delay={0.2 + i * 0.08} as="li">

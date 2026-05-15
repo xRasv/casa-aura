@@ -44,6 +44,9 @@ html, body {
     color: #8B765F;
   }
   .hairline {
+    border-color: #CDBEAE;
+  }
+  .hairline-bg {
     background: #CDBEAE;
   }
   .text-balance { text-wrap: balance; }
