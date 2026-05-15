@@ -61,16 +61,6 @@ export function Faq() {
                         i === FAQS.length - 1 ? "border-b" : ""
                       }`}
                     >
-                      {/* Left accent on open */}
-                      <motion.span
-                        aria-hidden
-                        initial={false}
-                        animate={{ scaleY: isOpen ? 1 : 0 }}
-                        transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-                        style={{ transformOrigin: "top" }}
-                        className="absolute left-0 top-0 bottom-0 w-px bg-secondary -translate-x-px"
-                      />
-
                       <button
                         onClick={() => setOpen(isOpen ? -1 : i)}
                         className="w-full grid grid-cols-[auto_1fr_auto] items-center gap-5 py-6 md:py-7 text-left group"
